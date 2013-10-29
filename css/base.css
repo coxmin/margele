@@ -25,6 +25,7 @@ body, button, input, select, textarea {
 	font-family: sans-serif;
 	color: #ccc;
 }
+
 #container, #header, #header h1 {
 	margin: 0;
 	padding: 0;
@@ -236,4 +237,20 @@ td {
 }
 .clearfix {
 	zoom: 1;
+}
+#leftbox {
+	width: 25%;
+	float:left;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	background: #101;
+}
+#rightbox {
+	width: 72%;
+	float:left;
+	margin: 0;
+	padding: 0 0 0 3%;
+	border: 0 none;
+	background: #202;
 }
