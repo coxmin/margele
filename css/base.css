@@ -49,11 +49,20 @@ body, button, input, select, textarea {
 	margin: 0;
 	padding: 0 5px;
 }
-#header dl dd input[type=text], #header dl dd input[type=password]{
+#header dl dd input[type=text], #header dl dd input[type=password] {
 	background: transparent;
 	color: #fff;
 	border: 1px solid #535;
 	border-radius: 4px;
+}
+.btn {
+	background: #222;
+	border: 1px solid #434;
+	padding: 5px;
+	margin: 0;
+	box-shadow: 0 0 12px 4px #709 inset;
+	text-shadow: 0 1px #a0b;
+	cursor: pointer;
 }
 #txtlogo {
 	display: inline-block;
